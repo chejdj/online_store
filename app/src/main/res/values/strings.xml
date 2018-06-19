@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">online_store</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="logout">退出账号</string>
+    <string name="upload">上架商品</string>
+    <string name="store">二手商城</string>
+</resources>
