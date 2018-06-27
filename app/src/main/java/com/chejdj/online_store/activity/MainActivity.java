@@ -86,6 +86,7 @@ public class MainActivity extends AppCompatActivity
     private void replaceFragment(Fragment fragment) {
         FragmentManager fragmentManager = getFragmentManager();
         FragmentTransaction transaction = fragmentManager.beginTransaction();
+        transaction.setCustomAnimations(R.animator.slide_in_left,R.animator.slide_out_right);
         transaction.replace(R.id.fragment, fragment);
         transaction.commit();
     }
